@@ -1,4 +1,5 @@
 const express = require('express')
+console.log('abc')
 const mongoose = require('mongoose')
 const Article = require('./models/article')
 const articleRouter = require('./routes/articles')
